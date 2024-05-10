@@ -5,7 +5,8 @@ def apt_search1(city:str, max_rent:int, min_beds:int, pets_allowed:bool):
         pet_string = ''
     print(f'Welcome to GC Property Management!  Looking up listings in {city} for {min_beds} bedroom apartments{pet_string}, all within a budget of ${max_rent} per month...')
 
-apt_search1("detroit", 2000, 3, True)
+apt_search1("detroit", 1600, 2, True)
+apt_search1("St Louis", 2250, 3, False)
 
 
 # apt search 2
@@ -30,7 +31,7 @@ plus_one_hundred = lambda x: x+100
 print(plus_one_hundred(12))
 
 square_num = lambda x: x**2
-print(square_num(3))
+print(square_num(5))
 
 concatenate = lambda string1: '-' + string1
 print(concatenate('this is only a test'))
